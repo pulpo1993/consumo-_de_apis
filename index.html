@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tablas</title>
+    <link href="estilos.css" rel="stylesheet">
+    <script type="text/javascript" src="funciones.js"></script>
+</head>
+<body>
+
+    <input type="text" value="" id="titulo"><br><br>
+    <input type="button" value="Mostrar Datos" id="md1" class = "md" onclick="buscarPeliculaPorTitulo()"><br><br>
+
+    <table>
+            <tr>
+                <td>
+                    <table id="mia" class="dat">
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>TITULO</th>
+                            <th>ANIO</th>
+                            <th>TIPO</th>
+                            <th>POSTER</th>
+                        </tr>
+                        </thead>
+                        <tbody id = "informacion">
+
+                        </tbody>
+                    </table>   
+                </td>         
+            </tr>
+            <tr>
+                <div id="detalles">
+
+                </div>
+            </tr>
+    </table>        
+</body>
+</html>
