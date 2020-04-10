@@ -30,7 +30,7 @@ function buscarPeliculaPorTitulo(){
                 });
                 document.getElementById("informacion").innerHTML = detalles;
             }
-
+ 
         };
         xmlhttp.open("GET","http://www.omdbapi.com/?&apikey=2cdfc014&s=" + titulo + "&plot=full",true);
         xmlhttp.send();
