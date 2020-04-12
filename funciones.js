@@ -37,3 +37,47 @@ function buscarPeliculaPorTitulo(){
     }
     return false;  
 }
+function buscarPeli(id){
+    var detalles="";
+    if (id==""){
+        detalles = "sin informacion";
+        document.getElementById("informacion").innerHTML=detalles;
+
+    }else {
+
+      if(window.XMLHttpRequest){
+          xmlhttp=new XMLHttpRequest();                   
+      } else{
+          xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");        
+      } 
+          xmlhttp.onreadystatechange=function() {
+          if(this.readyState ==4 && this.status ==200){
+              var data= JSON.parse(this.responseText);
+             
+                    
+              var x;  
+          
+                  for(x in data){
+                      detalles+=                       
+                       "<tr>"+data[x] +"</tr>" +"<br>" 
+                       "</tr>"                     ;       
+                       }
+                    
+             
+              
+                       
+              }
+              var imagen= "<img src=\'"+data.Poster+"'/ ></img> "     
+              
+              document.getElementById("detalles").innerHTML=detalles;
+              document.getElementById("imagen").innerHTML=imagen;
+
+          }; 
+          xmlhttp.open("GET","http://www.omdbapi.com/?apikey=335d2c95&i="+ id +"&plot=full",true);
+          
+          xmlhttp.send();
+      }
+    }
+       
+       
+    var pagina=2;
