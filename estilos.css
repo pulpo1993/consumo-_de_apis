@@ -1,32 +1,106 @@
-.md{
-    background-image:url(img11.jpg);
-    background-repeat:no-repeat;
-    height:50px;
-    width:50px;
-    background-position:center;
-  }
-  
-  table {
-    width: 100%;
-    border: 1px solid #000;
- }
- th, td {
-    width: 25%;
-    text-align: left;
-    vertical-align: top;
-    border: 1px solid #000;
-    border-collapse: collapse;
-    padding: 0.3em;
-    caption-side: bottom;
- }
- caption {
-    padding: 0.3em;
-    color: #fff;
-     background: #000;
- }
- th {
-    background: #eee;
 
 
-    
- }
+ html{
+
+   width: 100%;
+   height: 100%;
+   overflow-y: scroll;
+   
+}
+body{
+   border-radius: 10em;
+   background: url(img3.jpg) no-repeat center top;
+   font-family: 'Courier New', Courier, monospace;
+   border-bottom-width: 0.2em;
+}
+h1 {
+   color:blue;
+   font-weight: normal;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
+
+}
+.uno img  {
+   width :1200px ;
+   height:300px;
+   border-radius: 10px;   
+
+}
+.uno {
+   font-family: fantasy;    
+   text-align: center;
+   font-size: 24px;
+}
+.uno input{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-bottom: black;
+   border-radius: 12em;
+   
+   border-bottom: 1px solid black;
+   box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+   font-size:90%;
+}
+
+
+img{
+   
+   width :200px ;
+   height:200px;
+   border-radius: 10px;  
+}
+.contenedor2{ 
+  border-radius: 50em;
+   text-align: center;
+  margin: 50px auto;
+  width :1200px ;
+  height:900px;
+  padding:20px;
+  background: url(3.jpg) no-repeat center top;
+  overflow: auto;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dat 
+{
+   width: 100%;      
+}
+.dat th,td{
+   width: 15%;    
+   text-align: justify;
+}
+
+p{
+   margin-bottom: 20px;
+   line-height: 28px;
+   font-size: 16 px;
+   color: honeydew;
+}
+
+.pie img{
+   width :1340px ;
+  height:150px;
+}
+h3{
+   font-size: 20px;
+   color:black;
+}
+h2{
+   text-align: center;
+   font-family:fantasy;
+   font-size: 40px;
+   color: darkblue;
+}
+.tres {
+   font-family: fantasy;    
+   text-align: center;
+   font-size: 24px;
+}
+.tres input{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-bottom: black;
+   border-radius: 12em;
+   
+   border-bottom: 1px solid black;
+   box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+   font-size:90%;
+}

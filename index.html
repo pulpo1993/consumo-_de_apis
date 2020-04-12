@@ -1,39 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tablas</title>
+    <title>Full Pelis </title>
     <link href="estilos.css" rel="stylesheet">
     <script type="text/javascript" src="funciones.js"></script>
 </head>
 <body>
 
-    <input type="text" value="" id="titulo">
-    <input type="button" value="Mostrar Datos" id="md1" class = "md" onclick="buscarPeliculaPorTitulo()"><br><br>
+    <div class="uno">            
+                  
+        <h1>Full Peliculas HD
+        </h1>
+        
+        <input type="text" name="" id="titulo" /><br>
+        <input type="button" value="Mostrar Datos" id="md1" class = "md" onclick="buscarPeliculaPorTitulo()"><br><br> 
+                           
+    </div>
 
-    <table>
+    <div class=" contenedor2">
+           
+        <p>
+
+        <h1>Peliculas Disponibles</h1>
+        <table>
             <tr>
                 <td>
-                    <table id="mia" class="dat">
-                        <thead>
-                        <tr>
-                            <th></th>
-                            <th>TITULO</th>
-                            <th>ANIO</th>
-                            <th>TIPO</th>
-                            <th>POSTER</th>
+           
+            <table id="cabecera" class="dat">
+                 
+                    <thead>
+                        <tr> 
+                        <th></th>
+                        <th> Title</th>
+                        <th>Year</th>
+                        <th>Type</th>
+                        <th  id="imagen">Imagen</th>
                         </tr>
-                        </thead>
-                        <tbody id = "informacion">
-
-                        </tbody>
-                    </table>   
-                </td>         
+                    </thead>
+                    
+                <tbody id="informacion">                        
+            
+                </tbody>                  
+                
+            </table>
+               
+                </td>
             </tr>
-            <tr>
-                <div id="detalles">
+        <tr>
+            <td>
 
-                </div>
-            </tr>
-    </table>        
+                <div  id="detalles"></div>
+               
+            </td>
+         
+
+        </tr>
+        <tr>
+            <td>
+
+                <div  id="imagenes"></div>
+            </td>
+      
+        </tr>
+        </table>    
+       </p> 
+    </div>
+    <div class="tres">            
+        <input type="button" id="uno" value="1" onclick="return buscar(this)" />
+        <input type="button" id="dos" value="2" onclick="return buscar(this)" /> 
+        <input type="button" id="tres" value="3" onclick="return buscar(this)" />            
+        <input type="button" id="cuatro" value="4" onclick="return buscar(this)" />            
+        <input type="button" id="cinco" value="5" onclick="return buscar(this)" /> 
+        <input type="button" id="cinco" value=">>" onclick="siguiente()" />  
+     
+    </div>
+           
 </body>
 </html>
