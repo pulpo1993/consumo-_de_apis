@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Full Pelis </title>
-    <link href="estilos.css" rel="stylesheet">
-    <script type="text/javascript" src="funciones.js"></script>
-</head>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Full Pelis </title>
+        <link href="estilos.css" rel="stylesheet">
+        <script type="text/javascript" src=funciones.js></script>
+    </head>
+
 <body>
 
     <div class="uno">            
                   
-        <h1>Full Peliculas HD
+        <h1>FULL PELICULAS HD
         </h1>
         
-        <input type="text" name="" id="titulo" /><br>
-        <input type="button" value="Mostrar Datos" id="md1" class = "md" onclick="buscarPeliculaPorTitulo()"><br><br> 
+        <input type="text" name="" id="titulo" class="txt" />
+        <input type="button" value="Buscar" id="md1" class = "md" onclick="return buscar(this)">
                            
     </div>
 
@@ -21,7 +23,7 @@
            
         <p>
 
-        <h1>Peliculas Disponibles</h1>
+        <h1>CARTELERA DE PELICULAS DISPONIBLES</h1>
         <table>
             <tr>
                 <td>
@@ -65,7 +67,7 @@
         </table>    
        </p> 
     </div>
-    <div class="tres">            
+    <div class="cuatro">            
         <input type="button" id="uno" value="1" onclick="return buscar(this)" />
         <input type="button" id="dos" value="2" onclick="return buscar(this)" /> 
         <input type="button" id="tres" value="3" onclick="return buscar(this)" />            
@@ -74,6 +76,6 @@
         <input type="button" id="cinco" value=">>" onclick="siguiente()" />  
      
     </div>
-           
+         
 </body>
 </html>
