@@ -144,8 +144,7 @@ function siguiente()
                                "<td>"+ movie.Type+"</td>"+
                                "<td><img src="+ movie.Poster+"></td>"+
                                "</tr>";
-                               
-                              
+                         
                                                     
                 });
               
