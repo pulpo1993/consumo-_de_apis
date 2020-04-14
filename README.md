@@ -1,0 +1,6 @@
+![uno](https://github.com/pulpo1993/consumo-_de_apis/blob/master/imagenes%20informe/img1.JPG)
+![uno](https://github.com/pulpo1993/consumo-_de_apis/blob/master/imagenes%20informe/img2.JPG)
+![uno](https://github.com/pulpo1993/consumo-_de_apis/blob/master/imagenes%20informe/img3.JPG)
+![uno](https://github.com/pulpo1993/consumo-_de_apis/blob/master/imagenes%20informe/img4.JPG)
+![uno](https://github.com/pulpo1993/consumo-_de_apis/blob/master/imagenes%20informe/img5.JPG)
+![uno](https://github.com/pulpo1993/consumo-_de_apis/blob/master/imagenes%20informe/img7.JPG)
